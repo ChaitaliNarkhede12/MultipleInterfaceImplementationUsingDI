@@ -33,25 +33,6 @@ namespace WebApplication2
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            //services.AddScoped<Email>();
-            //services.AddScoped<SMS>();
-            //services.AddScoped<Fax>();
-
-            //services.AddTransient<Func<CommunicationType, IMessenger>>(serviceProvider => key =>
-            //{
-            //    switch (key)
-            //    {
-            //        case CommunicationType.Email:
-            //            return serviceProvider.GetService<Email>();
-            //        case CommunicationType.SMS:
-            //            return serviceProvider.GetService<SMS>();
-            //        case CommunicationType.Fax:
-            //            return serviceProvider.GetService<Fax>();
-            //        default:
-            //            return null;
-            //    }
-            //});
-
             services.AddTransient<IMessenger, Email>();
             services.AddTransient<IMessenger, SMS>();
             services.AddTransient<IMessenger, Fax>();

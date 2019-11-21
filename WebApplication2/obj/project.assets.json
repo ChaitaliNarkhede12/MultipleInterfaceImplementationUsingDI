@@ -11628,11 +11628,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chaitali.narkhede\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+      "projectUniqueName": "E:\\Data\\MultipleInterfaceImplementationUsingDI\\WebApplication2\\WebApplication2.csproj",
       "projectName": "WebApplication2",
-      "projectPath": "C:\\Users\\chaitali.narkhede\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+      "projectPath": "E:\\Data\\MultipleInterfaceImplementationUsingDI\\WebApplication2\\WebApplication2.csproj",
       "packagesPath": "C:\\Users\\chaitali.narkhede\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chaitali.narkhede\\source\\repos\\WebApplication2\\WebApplication2\\obj\\",
+      "outputPath": "E:\\Data\\MultipleInterfaceImplementationUsingDI\\WebApplication2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
